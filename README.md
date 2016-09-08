@@ -8,7 +8,7 @@ In development...
 
 ## Configuration
 
-Create your app at [https://apps.Wordpress.com](https://apps.Wordpress.com).
+Create your app at [https://developer.wordpress.com/apps/](https://developer.wordpress.com/apps/).
 
 ## Usage
 
