@@ -110,8 +110,8 @@ class WordpressApi extends Config
     public function authorizeUrl()
     {
 
-        $url = $this->url('oauth2/authorize', array('client_id' => $this->client->id, 
-                                                    'redirect_uri' => $this->client->callbackUrl, 
+        $url = $this->url('oauth2/authorize', array('client_id' => $this->client->id,
+                                                    'redirect_uri' => $this->client->callbackUrl,
                                                     'response_type' => 'code',
                                                     'scope' => 'global'));
         return $url;
@@ -221,7 +221,7 @@ class WordpressApi extends Config
     {
         return $this->http('PUT', self::API_HOST, $path, $parameters);
     }
-    
+
 
     /**
      * @param string $method
